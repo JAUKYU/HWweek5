@@ -1,0 +1,39 @@
+/* CSS untuk tampilan dengan Bootstrap */
+/* Tambahkan stylesheet Bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Gaya tambahan */
+.tab-content {
+    display: none;
+}
+.active-tab {
+    display: block;
+}
+
+/* Tampilan tab */
+ul.nav.nav-tabs {
+    margin-top: 20px;
+}
+
+ul.nav.nav-tabs li.nav-item {
+    margin-right: 10px;
+}
+
+ul.nav.nav-tabs li.nav-item a.nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Tambahkan border pada tabel */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #000000;
+}
+
+/* Tambahkan border pada sel (cell) tabel */
+table th, table td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
